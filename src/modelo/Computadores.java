@@ -66,7 +66,12 @@ public class Computadores {
     public void setKapcPrecioComp(Double kapcPrecioComp) {
         this.kapcPrecioComp = kapcPrecioComp;
     }
-    
+     
+     public void imprimir (){
+         System.out.println("");
+     
+        
+    }
     
     
 }
