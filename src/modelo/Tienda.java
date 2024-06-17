@@ -47,6 +47,11 @@ public class Tienda {
     }
     
     public void imprimir (){
-        System.out.println("");
+        System.out.println(" ****** Datos de la Tienda****** "+
+                "Nombre Tienda: " + getKapcNombreTienda() +
+                "Propietario de la Tienda: " + getKapcPropietarioTienda() +
+                "Identificador Tributario: " + getKapcIdentificadorTributario() );
+        
+        
     }
 }

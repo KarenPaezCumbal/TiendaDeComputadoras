@@ -68,7 +68,12 @@ public class Computadores {
     }
      
      public void imprimir (){
-         System.out.println("");
+         System.out.println("***** Datos Computador ****" +
+         "Marca Computador: " + getKapcMarcaComp() +
+         "Cantidad de Memoria: " +  getKapcCantidadMem() +
+         "Caracteristicas del Procesador: " + getKapcCaracteristicasPro() +
+         "Sistema Operativo: " + getKapcSistemaOperativo() +
+         "Precio Computador: " + getKapcPrecioComp());
      
         
     }
